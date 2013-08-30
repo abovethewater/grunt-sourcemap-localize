@@ -1,0 +1,43 @@
+{
+  "name": "grunt-sourcemap-localize",
+  "description": "Localize the file and sources relative to source",
+  "version": "0.1.0",
+  "homepage": "https://github.com/abovethewater/grunt-sourcemap-localize",
+  "author": {
+    "name": "Joe",
+    "email": "joe@abovethewater.co.uk",
+    "url": "abovethewater.co.uk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/abovethewater/grunt-sourcemap-localize.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abovethewater/grunt-sourcemap-localize/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/abovethewater/grunt-sourcemap-localize/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt": "~0.4.1"
+  },
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin sourcemap js coffee min minify"
+  ]
+}
