@@ -23,17 +23,6 @@ module.exports = function(grunt) {
       },
     },
 
-    sourcemap_localize: {
-      options: {
-        localize_to : 'dist/',
-      },
-      all: {
-        files: {
-          src: ['dist/*.min.map.js'],
-        }
-      },
-    },
-
   });
 
   // Actually load this plugin's task(s).
