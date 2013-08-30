@@ -15,7 +15,17 @@
  module.exports = function(grunt) {
 
   grunt.registerMultiTask('sourcemap_localize', function() {
+
+    var options = this.options({});
+
+    if (typeof options.localize_to !== "string") {
+        grunt.log.error("Missing required option!");
+        return false;
+    }
+
     grunt.log.writeln('ok');
+
+
   });
 
 };
